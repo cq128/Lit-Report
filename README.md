@@ -13,6 +13,11 @@
 
 
 ## 平台方法  
+
+
+> **注意**，以下所有的方法都可以单独调用，即你不需要为了调用`firstReport`方法而特意在此之前调用`login`方法。`firstReport`方法在调用时会自动检测登录状态。
+
+
 - 登录
 ```python
 UserAPI(User).login()
